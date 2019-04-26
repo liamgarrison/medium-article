@@ -83,6 +83,35 @@ ul {
   color: rgb(230, 230, 230);
 }
 
+.post-meta-wrapper {
+  display: flex;
+
+}
+
+.post-meta-row {
+  margin-left: 20px;
+}
+
+.post-meta-row .follow {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 3px 7px;
+  margin-left: 5px;
+}
+
+.post-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-image: url(https://source.unsplash.com/random/100x100);
+}
+
+.post-meta {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
